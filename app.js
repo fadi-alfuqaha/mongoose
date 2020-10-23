@@ -5,7 +5,7 @@ const db = require("./db");
 
 const app = express();
 app.use(express.json());
-
+console.log("Hi")
 app.get("/todos", (req, res) => {
   
 });
